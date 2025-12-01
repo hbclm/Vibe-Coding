@@ -112,4 +112,6 @@ themes/*/vendor/
 # !public/uploads/.gitkeep
 
 # AI Context
-.ai/
+# NOTE: .ai/ directory is NOT ignored in the template
+# After project initialization, add the following line to ignore AI context:
+# .ai/

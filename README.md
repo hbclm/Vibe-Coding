@@ -1,114 +1,210 @@
-# FlowOne CMS
+# VibeCoding Template
 
-> One platform for all business flows.
+> A comprehensive project template for AI-assisted development
 
-**FlowOne** is a modern, lightweight, fast, and secure CMS platform - designed with an architecture optimized for the modern era.
+**VibeCoding** is a standardized project template designed to help AI assistants and development teams quickly bootstrap new software projects with proper documentation, development guidelines, and team collaboration standards.
 
-## 📋 Overview
+## 📋 What is VibeCoding?
 
-FlowOne is built with the philosophy of **simple yet powerful**, focusing on excellent developer experience (DX) and high performance out-of-the-box.
+VibeCoding provides:
 
-### 🎯 Core Strengths
+- ✅ **Pre-structured documentation framework** - Ready-to-use templates for all essential project docs
+- ✅ **Development guidelines** - Best practices for code quality, testing, and collaboration
+- ✅ **AI-friendly initialization** - Systematic questions and placeholders for AI to fill
+- ✅ **Flexible templates** - Support for various project types (CMS, API, Web App, etc.)
+- ✅ **Multi-tech stack support** - Works with Python, Node.js, PHP, Java, and more
+- ✅ **Team collaboration ready** - Contributing guidelines, code standards, and security practices
 
-- **⚡ Fast**: Performance-optimized with JIT PHP 8.4+, cache layers and asset optimization
-- **🪶 Lightweight**: Minimal architecture, zero bloat, SQLite support for lightweight deployment
-- **🔒 Secure by Default**: Security-first approach with plugin sandboxing and signed packages
-- **🎨 Excellent Developer Experience**:
-  - Simple and safe for beginners
-  - Powerful tools for professional developers
-  - Robust CLI and Composer-native
-- **🚀 High Performance Out-of-the-box**: Multi-layer caching, CDN-ready, optimized queries
-- **📱 Mobile & Web App Ready**: REST + GraphQL APIs, headless-ready architecture
-- **🔧 Simple Setup**: 1-click installer, SQLite for dev, production-ready configs
-- **🔌 Easy Headless Integration**: API-first design, decoupled frontend/backend
+## 🎯 Who is this for?
 
-### ❌ WordPress Problems That FlowOne Solves
+### AI Assistants 🤖
 
-| WordPress Problem                        | FlowOne Solution                                          |
-| ---------------------------------------- | --------------------------------------------------------- |
-| **Legacy codebase**                      | Modern PHP 8.4+ with PSR standards                        |
-| **Plugin/theme security issues**         | Plugin sandboxing, signed packages, permission model      |
-| **Bloat and poor performance**           | Lightweight core, lazy loading, optimized DB queries      |
-| **Outdated admin UX**                    | Modern SPA admin UI (Vue.js)                              |
-| **Complex migration between DB engines** | Unified DB abstraction layer (SQLite/MySQL/MariaDB)       |
-| **Update conflicts plugin-core**         | Versioning system, compatibility checks, rollback support |
+- Follow structured initialization process
+- Ask systematic questions
+- Generate consistent project documentation
+- Create appropriate directory structures
 
-## 🎯 Market Positioning
+### Development Teams 👥
 
-FlowOne targets 3 main audience segments:
+- Start new projects faster
+- Maintain consistent documentation standards
+- Follow established best practices
+- Onboard new team members easily
 
-### 1. **Developers & Agencies** 👨‍💻
+### Solo Developers 👨‍💻
 
-- Need **fast, lightweight, extensible** tools
-- Want to participate in or create monetizable ecosystems
-- Value excellent developer experience and modern tooling
-
-### 2. **SME (Small & Medium Enterprises)** 🏢
-
-- Want **fast, secure** websites without needing IT teams
-- Need sufficient tools for **basic digital transformation**
-- Prioritize cost-effective and easy-to-maintain solutions
-
-### 3. **Headless CMS Users** 🔌
-
-- Need flexible backend for React/Vue/Angular/mobile apps
-- Require API-first architecture
-- Want complete control over frontend experience
-
-## 🌍 Scope & Vision
-
-- **Phase 1**: Focus on **Vietnam** market (Vietnamese-first features, docs, support)
-- **Phase 2**: **Global** expansion with i18n support and international marketplace
-
-## 📚 Related Documentation
-
-- [**ARCHITECTURE.md**](./docs/ARCHITECTURE.md) - System architecture and technical design
-- [**INSTALLATION.md**](./docs/INSTALLATION.md) - Installation and configuration guide
-- [**ROADMAP.md**](./docs/ROADMAP.md) - Development roadmap and MVP features
-- [**TECH_STACK.md**](./docs/TECH_STACK.md) - Technology stack details
-- [**SECURITY.md**](./docs/SECURITY.md) - Security strategy
-- [**MIGRATION.md**](./docs/MIGRATION.md) - WordPress migration guide
-- [**BUSINESS.md**](./docs/BUSINESS.md) - Business model and go-to-market
-- [**RISKS.md**](./docs/RISKS.md) - Risk analysis and solutions
+- Professional project structure from day one
+- Comprehensive documentation templates
+- Industry-standard guidelines
+- Future-proof organization
 
 ## 🚀 Quick Start
 
-```bash
-# Install FlowOne CLI
-composer global require flowone/cli
+### Step 1: Use This Template
 
-# Create new project
-flowone new my-project
+Clone or copy this repository to start a new project.
 
-# Serve locally (SQLite dev mode)
-cd my-project
-flowone serve
+### Step 2: Initialize with AI
 
-# Visit http://localhost:8000
-```
+Ask your AI assistant to:
 
-## 🤝 Contributing
+1. Read [`PROJECT_INIT.md`](./PROJECT_INIT.md)
+2. Ask you the initialization questions
+3. Generate your project documentation
 
-FlowOne is an **open-core** project (Apache 2.0 License). We welcome all contributions from the community!
+### Step 3: Start Development
 
-- 📖 [Contribution Guidelines](./docs/CONTRIBUTING.md)
-- 💬 [Discord Community](https://discord.gg/flowone)
-- 🐛 [Issue Tracker](https://github.com/flowone/flowone/issues)
+Follow the generated documentation and guidelines in `docs/GUIDELINE.md`.
 
-## 📄 License
+## 📂 What's Included?
 
-**FlowOne Licensing Model:**
+### Template Files (`.template.md`)
 
-- **Core Platform**: Apache 2.0 License - see [LICENSE](./LICENSE)
-- **Plugin & Theme SDK**: Apache 2.0 License
-- **Plugins & Themes**: Developers can choose:
-  - Apache 2.0 (open-source)
-  - MIT (open-source)
-  - Commercial (proprietary)
-  - Dual-license (Open-source + Pro versions)
+These files contain placeholders that AI will fill during initialization:
 
-This flexible licensing allows both open-source collaboration and commercial opportunities for the ecosystem.
+- `README.template.md` - Project overview
+- `docs/ARCHITECTURE.template.md` - System architecture
+- `docs/TECH_STACK.template.md` - Technology stack details
+- `docs/ROADMAP.template.md` - Development roadmap
+- `docs/INSTALLATION.template.md` - Setup instructions
+- `docs/BUSINESS.template.md` - Business model (optional)
+- `docs/RISKS.template.md` - Risk analysis (optional)
+- `docs/MIGRATION.template.md` - Migration guide (optional)
+
+### Generic Guidelines (Keep as-is)
+
+These files don't need modification:
+
+- `docs/GUIDELINE.md` - Development principles and best practices
+- `LICENSE` - License file
+
+### Conditional Files (Generated based on project type)
+
+- `docs/CONTRIBUTING.md` - Contribution guide (for open-source projects)
+- `docs/SECURITY.md` - Security practices (if public security reporting)
+
+### Initialization Files
+
+- `PROJECT_INIT.md` - Instructions for AI to initialize projects
+- `.ai/` - AI context directory (created during initialization)
 
 ---
 
-**Built with ❤️ by the FlowOne Team**
+## 🔄 How It Works
+
+### For Developers
+
+1. **Copy this template** to start your new project
+2. **Ask AI**: "Please initialize a new project using VibeCoding template"
+3. **Answer questions** about your project (name, tech stack, type, etc.)
+4. **Review** generated documentation files
+5. **Start developing** with complete project setup
+
+### For AI Assistants
+
+When a user requests project initialization:
+
+1. **FIRST**: Ask about project idea and analyze (Step 0)
+   - Get project concept and initial features
+   - Suggest additional features
+   - Wait for user confirmation
+2. **Read** [`PROJECT_INIT.md`](./PROJECT_INIT.md) for complete instructions
+3. **Ask** user all 26 questions systematically
+4. **Process** each `.template.md` file:
+   - Replace `{{PLACEHOLDERS}}` with user's answers
+   - Save as final `.md` file
+   - Delete `.template.md` file
+5. **Generate** LICENSE file based on user's choice
+6. **Generate** `.ai/TODO.md` with project-specific task breakdown
+7. **Conditionally create** CONTRIBUTING.md and SECURITY.md
+8. **Create** `.ai/PROJECT_CONTEXT.md` with project details
+9. **Update** `.gitignore` to exclude `.ai/` directory
+10. **Create** directory structure for chosen tech stack
+
+### Post-Initialization Cleanup
+
+Files to delete after initialization:
+
+- `PROJECT_INIT.md` (instructions no longer needed)
+- All `.template.md` files (already processed)
+
+---
+
+## 📖 Documentation
+
+- **[PROJECT_INIT.md](./PROJECT_INIT.md)** - Complete initialization guide for AI
+- **[docs/GUIDELINE.md](./docs/GUIDELINE.md)** - Development guidelines and best practices
+
+---
+
+## 🎨 Supported Project Types
+
+VibeCoding templates support various project types:
+
+- 🌐 Web Applications (Full-stack)
+- 🔌 API/Backend Services
+- 📝 CMS/Content Platforms
+- 📱 Mobile Backends
+- 🛒 E-commerce Platforms
+- ☁️ SaaS Applications
+- 🔧 Internal Tools/Dashboards
+- 📚 Libraries/Frameworks
+
+## 🛠️ Supported Tech Stacks
+
+### Backend
+
+- Python (FastAPI, Django, Flask)
+- Node.js (Express, NestJS, Fastify)
+- PHP (Laravel, Symfony)
+- Java (Spring Boot)
+- Go, Ruby, and more
+
+### Frontend
+
+- Vue.js (Vue 3, Nuxt)
+- React (Next.js, CRA)
+- Angular
+- Svelte (SvelteKit)
+- Plain HTML/CSS/JS
+
+### Databases
+
+- PostgreSQL, MySQL/MariaDB
+- MongoDB, Redis
+- SQLite, and more
+
+## 💡 Example Use Case
+
+**Before VibeCoding:**
+
+- Spend hours setting up project structure
+- Inconsistent documentation across projects
+- Forget important files (SECURITY.md, CONTRIBUTING.md)
+- No standardized guidelines
+
+**With VibeCoding:**
+
+- AI asks systematic questions
+- Complete documentation generated in minutes
+- Professional structure from day one
+- Team collaboration standards included
+
+## 🤝 How It Works
+
+1. **AI reads** `PROJECT_INIT.md`
+2. **AI asks** structured questions about your project
+3. **AI processes** `.template.md` files
+4. **AI replaces** `{{PLACEHOLDERS}}` with your answers
+5. **AI creates** final documentation files
+6. **You start** developing with complete project setup
+
+## 📄 License
+
+This template is licensed under the **Apache 2.0 License** - see [LICENSE](./LICENSE)
+
+Projects created using this template can use any license you choose.
+
+---
+
+**Built with ❤️ for better AI-human collaboration**
