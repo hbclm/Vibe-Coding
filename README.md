@@ -64,12 +64,12 @@ FlowOne targets 3 main audience segments:
 
 - [**ARCHITECTURE.md**](./ARCHITECTURE.md) - System architecture and technical design
 - [**INSTALLATION.md**](./INSTALLATION.md) - Installation and configuration guide
-- [**ROADMAP.md**](./.ai/ROADMAP.md) - Development roadmap and MVP features
-- [**TECH_STACK.md**](./.ai/TECH_STACK.md) - Technology stack details
-- [**SECURITY.md**](./.ai/SECURITY.md) - Security strategy
-- [**MIGRATION.md**](./.ai/MIGRATION.md) - WordPress migration guide
-- [**BUSINESS.md**](./.ai/BUSINESS.md) - Business model and go-to-market
-- [**RISKS.md**](./.ai/RISKS.md) - Risk analysis and solutions
+- [**ROADMAP.md**](./ROADMAP.md) - Development roadmap and MVP features
+- [**TECH_STACK.md**](./TECH_STACK.md) - Technology stack details
+- [**SECURITY.md**](./SECURITY.md) - Security strategy
+- [**MIGRATION.md**](./MIGRATION.md) - WordPress migration guide
+- [**BUSINESS.md**](./BUSINESS.md) - Business model and go-to-market
+- [**RISKS.md**](./RISKS.md) - Risk analysis and solutions
 
 ## 🚀 Quick Start
 
