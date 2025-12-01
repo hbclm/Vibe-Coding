@@ -14,12 +14,12 @@ MVP is the first production-ready version with complete basic functionality.
 
 #### 1. **Installer** (Web + CLI)
 
-- [x] Web-based installer with friendly UI
-- [x] CLI installer for automation
-- [x] Choose database engine (SQLite for dev, MySQL/MariaDB for production)
-- [x] Environment configuration generator
-- [x] Automatic database migration
-- [x] Admin user creation
+- [ ] Web-based installer with friendly UI
+- [ ] CLI installer for automation
+- [ ] Choose database engine (SQLite for dev, MySQL/MariaDB for production)
+- [ ] Environment configuration generator
+- [ ] Automatic database migration
+- [ ] Admin user creation
 
 ```bash
 # CLI installation
@@ -28,9 +28,9 @@ flowone install --db=sqlite --admin-email=admin@example.com
 
 #### 2. **Core Content Management**
 
-- [x] **Pages**: Static content with hierarchy support
-- [x] **Posts**: Blog/news with published date, categories, tags
-- [x] **Custom Content Types**: Extensible system for new content types
+- [ ] **Pages**: Static content with hierarchy support
+- [ ] **Posts**: Blog/news with published date, categories, tags
+- [ ] **Custom Content Types**: Extensible system for new content types
   - Product, Portfolio, Event, FAQ, etc.
   - Custom fields (text, number, date, media, relation)
   - Custom taxonomies
@@ -51,64 +51,64 @@ ContentType::register('product', [
 
 #### 3. **Rich Content Editor**
 
-- [x] WYSIWYG editor (TinyMCE or Quill)
-- [x] Markdown mode toggle
-- [x] Block editor (Gutenberg-style) - optional
-- [x] Shortcodes support
-- [x] Embed support (YouTube, Twitter, etc.)
-- [x] Auto-save drafts
+- [ ] WYSIWYG editor (TinyMCE or Quill)
+- [ ] Markdown mode toggle
+- [ ] Block editor (Gutenberg-style) - optional
+- [ ] Shortcodes support
+- [ ] Embed support (YouTube, Twitter, etc.)
+- [ ] Auto-save drafts
 
 #### 4. **Media Library**
 
-- [x] Upload images, videos, documents
-- [x] Automatic thumbnail generation (multiple sizes)
-- [x] Image editing (crop, resize)
-- [x] WebP conversion
-- [x] Lazy loading support
-- [x] Alt text & SEO metadata
-- [x] Bulk upload & management
+- [ ] Upload images, videos, documents
+- [ ] Automatic thumbnail generation (multiple sizes)
+- [ ] Image editing (crop, resize)
+- [ ] WebP conversion
+- [ ] Lazy loading support
+- [ ] Alt text & SEO metadata
+- [ ] Bulk upload & management
 
 #### 5. **User Authentication & RBAC**
 
-- [x] Email/password authentication
-- [x] Password reset flow
-- [x] Role-Based Access Control:
+- [ ] Email/password authentication
+- [ ] Password reset flow
+- [ ] Role-Based Access Control:
   - **Admin**: Full system access
   - **Editor**: Manage all content
   - **Author**: Create & edit own content
   - **Viewer**: Read-only access
-- [x] Custom roles & capabilities
-- [x] Two-factor authentication (2FA) - optional
+- [ ] Custom roles & capabilities
+- [ ] Two-factor authentication (2FA) - optional
 
 #### 6. **Theme Engine**
 
-- [x] Theme structure & manifest
-- [x] Template hierarchy (Twig)
-- [x] Child theme support
-- [x] Theme customizer (colors, fonts, logo)
-- [x] Asset pipeline (Vite integration)
-- [x] 2 Sample themes:
+- [ ] Theme structure & manifest
+- [ ] Template hierarchy (Twig)
+- [ ] Child theme support
+- [ ] Theme customizer (colors, fonts, logo)
+- [ ] Asset pipeline (Vite integration)
+- [ ] 2 Sample themes:
   - **FlowOne Minimal**: Clean, lightweight blog theme
   - **FlowOne Business**: Feature-rich business/corporate theme
 
 #### 7. **Plugin API**
 
-- [x] Hook system (actions & filters)
-- [x] Plugin manifest & metadata
-- [x] Plugin lifecycle (activate, deactivate, uninstall)
-- [x] Settings API
-- [x] 3 Demo plugins:
+- [ ] Hook system (actions & filters)
+- [ ] Plugin manifest & metadata
+- [ ] Plugin lifecycle (activate, deactivate, uninstall)
+- [ ] Settings API
+- [ ] 3 Demo plugins:
   - **SEO Optimizer**: Meta tags, Open Graph, Twitter Cards, XML sitemap
   - **Contact Form**: Form builder with spam protection
   - **Analytics**: Integration with Google Analytics
 
 #### 8. **REST API**
 
-- [x] Full CRUD operations for all content types
-- [x] Authentication (JWT)
-- [x] Pagination, filtering, sorting
-- [x] Rate limiting
-- [x] API documentation (Swagger/OpenAPI)
+- [ ] Full CRUD operations for all content types
+- [ ] Authentication (JWT)
+- [ ] Pagination, filtering, sorting
+- [ ] Rate limiting
+- [ ] API documentation (Swagger/OpenAPI)
 
 ```bash
 # API endpoints
@@ -121,10 +121,10 @@ DELETE /api/posts/{id}         # Delete post
 
 #### 9. **GraphQL API** (Optional/Basic)
 
-- [x] Basic schema for posts, pages, users
-- [x] Query support
-- [x] Mutation support (create, update, delete)
-- [x] Pagination & filtering
+- [ ] Basic schema for posts, pages, users
+- [ ] Query support
+- [ ] Mutation support (create, update, delete)
+- [ ] Pagination & filtering
 
 ```graphql
 query {
@@ -144,21 +144,21 @@ query {
 
 #### 10. **Caching & Performance**
 
-- [x] Full-page cache (file-based)
-- [x] Object cache (Redis integration)
-- [x] CDN integration support
-- [x] Asset minification & compression
-- [x] Database query caching
+- [ ] Full-page cache (file-based)
+- [ ] Object cache (Redis integration)
+- [ ] CDN integration support
+- [ ] Asset minification & compression
+- [ ] Database query caching
 
 #### 11. **WordPress Import Tool**
 
-- [x] Import WordPress export (WXR format)
-- [x] Map posts, pages, custom post types
-- [x] Import media files
-- [x] Import users
-- [x] Import taxonomies (categories, tags)
-- [x] URL rewrite mapping
-- [x] Preserve SEO metadata (Yoast, Rank Math)
+- [ ] Import WordPress export (WXR format)
+- [ ] Map posts, pages, custom post types
+- [ ] Import media files
+- [ ] Import users
+- [ ] Import taxonomies (categories, tags)
+- [ ] URL rewrite mapping
+- [ ] Preserve SEO metadata (Yoast, Rank Math)
 
 ```bash
 # Import WordPress content
@@ -167,12 +167,12 @@ flowone import:wordpress export.xml --download-media
 
 #### 12. **Auto-Update System**
 
-- [x] Core update mechanism
-- [x] Plugin update mechanism
-- [x] Theme update mechanism
-- [x] Signed packages (security)
-- [x] Rollback support
-- [x] Update notifications
+- [ ] Core update mechanism
+- [ ] Plugin update mechanism
+- [ ] Theme update mechanism
+- [ ] Signed packages (security)
+- [ ] Rollback support
+- [ ] Update notifications
 
 ---
 
@@ -184,13 +184,13 @@ flowone import:wordpress export.xml --download-media
 
 **Deliverables**:
 
-- [x] Project structure & boilerplate
-- [x] Core routing system (FastRoute)
-- [x] Database abstraction layer (PDO + Query Builder)
-- [x] SQLite adapter & migrations
-- [x] Dependency injection container (PHP-DI)
-- [x] CLI foundation (Symfony Console)
-- [x] Basic error handling & logging
+- [ ] Project structure & boilerplate
+- [ ] Core routing system (FastRoute)
+- [ ] Database abstraction layer (PDO + Query Builder)
+- [ ] SQLite adapter & migrations
+- [ ] Dependency injection container (PHP-DI)
+- [ ] CLI foundation (Symfony Console)
+- [ ] Basic error handling & logging
 
 **Timeline**: 2-3 weeks
 
@@ -202,12 +202,12 @@ flowone import:wordpress export.xml --download-media
 
 **Deliverables**:
 
-- [x] Posts, Pages, Custom Content Types
-- [x] Media library
-- [x] User authentication & RBAC
-- [x] Admin SPA (Vue 3) - basic CRUD
-- [x] Rich text editor integration
-- [x] Taxonomy system (categories, tags)
+- [ ] Posts, Pages, Custom Content Types
+- [ ] Media library
+- [ ] User authentication & RBAC
+- [ ] Admin SPA (Vue 3) - basic CRUD
+- [ ] Rich text editor integration
+- [ ] Taxonomy system (categories, tags)
 
 **Timeline**: 4-6 weeks
 
@@ -219,13 +219,13 @@ flowone import:wordpress export.xml --download-media
 
 **Deliverables**:
 
-- [x] Hook/event system
-- [x] Plugin API & manifest
-- [x] Plugin sandboxing & permissions
-- [x] Theme engine (Twig templates)
-- [x] Theme customizer
-- [x] 2 sample themes
-- [x] 3 demo plugins (SEO, Contact, Analytics)
+- [ ] Hook/event system
+- [ ] Plugin API & manifest
+- [ ] Plugin sandboxing & permissions
+- [ ] Theme engine (Twig templates)
+- [ ] Theme customizer
+- [ ] 2 sample themes
+- [ ] 3 demo plugins (SEO, Contact, Analytics)
 
 **Timeline**: 3-4 weeks
 
@@ -237,12 +237,12 @@ flowone import:wordpress export.xml --download-media
 
 **Deliverables**:
 
-- [x] RESTful API (full CRUD)
-- [x] JWT authentication
-- [x] API documentation (Swagger)
-- [x] GraphQL basic implementation
-- [x] Rate limiting & throttling
-- [x] CORS configuration
+- [ ] RESTful API (full CRUD)
+- [ ] JWT authentication
+- [ ] API documentation (Swagger)
+- [ ] GraphQL basic implementation
+- [ ] Rate limiting & throttling
+- [ ] CORS configuration
 
 **Timeline**: 2-3 weeks
 
@@ -254,12 +254,12 @@ flowone import:wordpress export.xml --download-media
 
 **Deliverables**:
 
-- [x] WordPress WXR importer
-- [x] Media downloader & URL rewriter
-- [x] SEO metadata preservation
-- [x] Plugin/theme marketplace (web UI)
-- [x] Package signing & verification
-- [x] Composer integration
+- [ ] WordPress WXR importer
+- [ ] Media downloader & URL rewriter
+- [ ] SEO metadata preservation
+- [ ] Plugin/theme marketplace (web UI)
+- [ ] Package signing & verification
+- [ ] Composer integration
 
 **Timeline**: 3-4 weeks
 
@@ -271,13 +271,13 @@ flowone import:wordpress export.xml --download-media
 
 **Deliverables**:
 
-- [x] Full-page caching
-- [x] Redis integration
-- [x] CDN support
-- [x] Image optimization pipeline
-- [x] Security audit & penetration testing
-- [x] Performance benchmarks
-- [x] Documentation completion
+- [ ] Full-page caching
+- [ ] Redis integration
+- [ ] CDN support
+- [ ] Image optimization pipeline
+- [ ] Security audit & penetration testing
+- [ ] Performance benchmarks
+- [ ] Documentation completion
 
 **Timeline**: 2-3 weeks
 
@@ -394,9 +394,9 @@ flowone import:wordpress export.xml --download-media
 
 Interested in contributing to FlowOne? See:
 
-- [Contributing Guidelines](./.ai/CONTRIBUTING.md)
-- [Developer Setup](./.ai/DEVELOPER_GUIDE.md)
-- [Architecture Overview](../ARCHITECTURE.md)
+- [Contributing Guidelines](./CONTRIBUTING.md)
+- [Developer Setup](./DEVELOPER_GUIDE.md)
+- [Architecture Overview](./ARCHITECTURE.md)
 
 ---
 
