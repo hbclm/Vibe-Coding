@@ -2,7 +2,7 @@
 
 > One platform for all business flows.
 
-**FlowOne** is a modern, lightweight, fast, and secure CMS platform - designed to replace WordPress with an architecture optimized for the modern era.
+**FlowOne** is a modern, lightweight, fast, and secure CMS platform - designed with an architecture optimized for the modern era.
 
 ## 📋 Overview
 
