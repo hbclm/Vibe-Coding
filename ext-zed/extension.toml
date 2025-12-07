@@ -1,0 +1,195 @@
+id = "vibekit"
+name = "VibeKit"
+version = "0.1.0"
+schema_version = 1
+authors = ["VibeKit <vibekit@hbcapital.vn>"]
+description = "47 professional slash commands for AI coding - from project init to deployment"
+repository = "https://github.com/HBCapital/VibeCoding"
+
+[slash_commands.api-design]
+description = "Design API endpoints and structure"
+requires_argument = false
+
+[slash_commands.api-docs]
+description = "Generate API documentation"
+requires_argument = false
+
+[slash_commands.clean-code]
+description = "Clean and refactor code"
+requires_argument = false
+
+[slash_commands.clean-deps]
+description = "Clean up dependencies"
+requires_argument = false
+
+[slash_commands.db]
+description = "Database design and operations"
+requires_argument = false
+
+[slash_commands.debug]
+description = "Debug issues and errors"
+requires_argument = false
+
+[slash_commands.default]
+description = "Default VibeKit command"
+requires_argument = false
+
+[slash_commands.deploy-devops]
+description = "Deployment and DevOps setup"
+requires_argument = false
+
+[slash_commands.design-ui]
+description = "UI/UX design guidance"
+requires_argument = false
+
+[slash_commands.doc]
+description = "General documentation"
+requires_argument = false
+
+[slash_commands.doc-api]
+description = "API documentation"
+requires_argument = false
+
+[slash_commands.doc-architect]
+description = "Architecture documentation"
+requires_argument = false
+
+[slash_commands.doc-architecture]
+description = "System architecture docs"
+requires_argument = false
+
+[slash_commands.doc-business]
+description = "Business documentation"
+requires_argument = false
+
+[slash_commands.doc-contributing]
+description = "Contributing guidelines"
+requires_argument = false
+
+[slash_commands.doc-install]
+description = "Installation documentation"
+requires_argument = false
+
+[slash_commands.doc-log]
+description = "Changelog documentation"
+requires_argument = false
+
+[slash_commands.doc-migration]
+description = "Migration documentation"
+requires_argument = false
+
+[slash_commands.doc-prd]
+description = "Product requirements document"
+requires_argument = false
+
+[slash_commands.doc-readme]
+description = "README documentation"
+requires_argument = false
+
+[slash_commands.doc-risks]
+description = "Risk assessment documentation"
+requires_argument = false
+
+[slash_commands.doc-roadmap]
+description = "Product roadmap documentation"
+requires_argument = false
+
+[slash_commands.doc-security]
+description = "Security documentation"
+requires_argument = false
+
+[slash_commands.doc-techstack]
+description = "Tech stack documentation"
+requires_argument = false
+
+[slash_commands.doc-todo]
+description = "TODO documentation"
+requires_argument = false
+
+[slash_commands.doc-writer]
+description = "Documentation writer assistant"
+requires_argument = false
+
+[slash_commands.git-commit]
+description = "Git commit message helper"
+requires_argument = false
+
+[slash_commands.git-pr]
+description = "Pull request helper"
+requires_argument = false
+
+[slash_commands.git-workflow]
+description = "Git workflow guidance"
+requires_argument = false
+
+[slash_commands.init]
+description = "Initialize new project"
+requires_argument = false
+
+[slash_commands.lang-js]
+description = "JavaScript best practices"
+requires_argument = false
+
+[slash_commands.lang-php]
+description = "PHP best practices"
+requires_argument = false
+
+[slash_commands.lang-ts]
+description = "TypeScript best practices"
+requires_argument = false
+
+[slash_commands.migrate-code]
+description = "Code migration helper"
+requires_argument = false
+
+[slash_commands.migrate-db]
+description = "Database migration helper"
+requires_argument = false
+
+[slash_commands.perf-optimize]
+description = "Performance optimization"
+requires_argument = false
+
+[slash_commands.perf-profile]
+description = "Performance profiling"
+requires_argument = false
+
+[slash_commands.refactor]
+description = "Code refactoring guidance"
+requires_argument = false
+
+[slash_commands.review]
+description = "Code review"
+requires_argument = false
+
+[slash_commands.review-architect]
+description = "Architecture review"
+requires_argument = false
+
+[slash_commands.review-audit]
+description = "Comprehensive code audit"
+requires_argument = false
+
+[slash_commands.review-code]
+description = "Code review guidance"
+requires_argument = false
+
+[slash_commands.sec-audit]
+description = "Security audit"
+requires_argument = false
+
+[slash_commands.sec-practices]
+description = "Security best practices"
+requires_argument = false
+
+[slash_commands.test]
+description = "Testing guidance"
+requires_argument = false
+
+[slash_commands.update]
+description = "Update dependencies and code"
+requires_argument = false
+
+[slash_commands.vibekit]
+description = "VibeKit help and information"
+requires_argument = false

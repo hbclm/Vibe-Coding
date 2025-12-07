@@ -1,0 +1,9 @@
+{
+  "vibekit": {
+    "git_repo": "HBCapital/VibeCoding",
+    "git_branch": "main",
+    "git_token": "",
+    "rules_path": "rules/vibekit.md",
+    "commands_path": "agents"
+  }
+}

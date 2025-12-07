@@ -138,6 +138,7 @@ git log --all --pretty=format: --name-only --since="1 year ago" | \
 - [ ] Remove console.log statements
 - [ ] Remove TODO comments for completed tasks
 - [ ] Remove deprecated code
+- [ ] **Reuse existing utils/libraries** (Check before adding new)
 - [ ] Update documentation
 
 ## Example Cleanup

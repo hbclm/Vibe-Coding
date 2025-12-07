@@ -1,29 +1,55 @@
 # VibeKit Default Guidelines
 
-### Trigger Mechanism:
+## 1. Context Awareness
 
-When the user's message starts with a `@` followed by a keyword (e.g., `@doc`, `@review`, `@test`), you must execute the following "Context Injection" workflow BEFORE processing the user's request.
+**Read in order:**
 
-### Workflow:
+1. `README.md` - Project overview
+2. `docs/TECH_STACK.md` - Available libraries (**DO NOT** add new without asking)
+3. `docs/TODO.md` - Current tasks/phases
+4. `docs/*.md` - Related docs
 
-1.  **Identify Command:** Extract the keyword after the `@` (e.g., `@review` -> `review`).
-2.  **Locate Context File:** Look for a corresponding Markdown file in the project's `.ai/` directory for `.ai/{keyword}.md`
-3.  **Inject Context:**
-    - **IF FOUND:** Read the entire content of that `.md` file. Adopt the persona, rules, style, and instructions defined in that file as your **PRIMARY SYSTEM PROMPT** for this turn. This overrides your default behavior.
-4.  **Execute:** Process the user's prompt (the text following the command) strictly adhering to the injected context.
+Understand project structure before making changes.
 
-### Example:
+## 2. Efficiency
 
-- **User:** `@review check this login function`
-- **Action:** You read `.ai/review.md`. If that file says "You are a Senior Security Engineer, focus on Auth vulnerabilities", you will analyze the login function specifically for security flaws, ignoring style or syntax unless specified.
+- **Concise** - No verbose explanations or repetition
+- **Skip obvious** - Don't explain what code clearly shows
+- **Batch updates** - Group changes, minimize back-and-forth
 
-## CONTEXT AWARENESS
+## 3. Reporting
 
-- Always check `docs/TECH_STACK.md` first to know available libraries. **DO NOT** introduce new libraries without asking. Use what is defined in the stack.
+- **Changes only** - Report what changed, not what exists
+- **No redundancy** - Don't repeat content from .md files
+- **Update tracking** - Update `TODO.md` directly
 
-## Reporting Completed Work
+## 4. Quality
 
-- **Be CONCISE**: Không cần lặp lại thông tin đã có trong .md files
-- **Highlight Changes**: Chỉ report những gì đã thay đổi
-- **Update Tracking**: Cập nhật TODO.md, không cần giải thích lại
-- **Summary Format**:
+- Follow existing code style and patterns
+- Include error handling and edge cases
+- Self-documenting code with clear naming
+- **Modular** - Break into independent parts
+- **Tests** - Write tests for critical logic
+- **Docs** - Update when changing behavior
+- **Comments** - Explain complex logic and decisions
+- **Changelog** - Update `CHANGELOG.md` with changes
+- **Files** - Docs → `docs/` (except `README.md`, `CHANGELOG.md`)
+
+## 5. Workflow
+
+- **Project:** Read context → Plan → Implement → Test → Document
+- **Task:** Read → Plan → Code → Verify → Update
+
+## 6. Communication
+
+- Ask **ONE** question if blocked
+- Suggest alternatives when unclear
+- Confirm destructive operations
+
+## 7. Safety
+
+- **Backup** - Commit before major changes
+- **Incremental** - Small changes, avoid big-bang
+- **Dependencies** - Reuse existing utils, avoid duplicates
+- **Breaking changes** - Document and update all callers
+- **Failure recovery** - Summarize progress if task fails
